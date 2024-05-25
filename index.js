@@ -1,6 +1,6 @@
-const btnLike1 = document.getElementById("btnLike1")
+const btnLikes1 = document.getElementById("btnLike1")
 const countlikes = document.getElementById("countLikes1")
-const btnLike2 = document.getElementById("btnLike2")
+const btnLikes2 = document.getElementById("btnLike2")
 const countlikes = document.getElementById("countLikes2")
 
 function clickLike1() {
