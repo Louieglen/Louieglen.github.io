@@ -1,7 +1,7 @@
 const btnLikes1 = document.getElementById("btnLike1")
-const countlikes = document.getElementById("countLikes1")
+const countlikes1 = document.getElementById("countLikes1")
 const btnLikes2 = document.getElementById("btnLike2")
-const countlikes = document.getElementById("countLikes2")
+const countlikes2 = document.getElementById("countLikes2")
 
 function clickLike1() {
     let totalLikes1 = parseInt(countLikes1.value) + 1
