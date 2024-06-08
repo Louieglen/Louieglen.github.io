@@ -11,12 +11,10 @@ function clickLike1() {
 }
 function clickLike2() {
     let totalLikes2 = parseInt(countLikes2.value) + 1
-    countLikes2.textContent = totalLikes2.toString()
-}
-btnLike1.addEventListener("click",clickLike1)
-btnLike2.addEventListener("click",clickLike2)
-}
+    countLikes2.textContent = totalLikes2.toString()}
 function submitComment(){
-    commentbox.textContent comment.value.toString() + "\n" 
-}
-submit.addEventListener("click", submitComment)
+    commentbox.textContent comment.value.toString() + "\n"
+    }
+    btnLike1.addEventListener("click",clickLike1)
+    btnLike2.addEventListener("click",clickLike2)
+    submit.addEventListener("click", submitComment)}
