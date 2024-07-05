@@ -68,6 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var total = document.getElementById("total");
     var cash = document.getElementById("cash");
     var change = document.getElementById("change");
+    var submit = document.getElementById("submit");
 
     function addOrder() {
         carts.textContent = "";
@@ -122,5 +123,5 @@ document.addEventListener("DOMContentLoaded", function() {
     qty5.addEventListener("keyup", addOrder);
     qty6.addEventListener("keyup", addOrder);
     cash.addEventListener("keyup", addOrder);
+    submit.addEventListener("click", addOrder);
 });
-
